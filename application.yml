@@ -1,1 +1,16 @@
 
+#---
+spring:
+    profiles:
+      active:
+      - d
+---
+spring:
+    profiles: d   #开发环境
+    application:
+      name: jymservicecloud-config-jym-dev
+---
+spring:
+    profiles: t   #测试环境
+    application:
+      name: jymservicecloud-config-jym-test
