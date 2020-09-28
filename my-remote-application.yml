@@ -9,11 +9,11 @@ server:
 spring:
     profiles: d   #开发环境
     application:
-      name: cf-s-d-10021      
+      name: cf-c 
 ---
 server:
     port: 10022
 spring:
     profiles: t   #测试环境
     application:
-      name: cf-s-d-10022
+      name: cf-c
