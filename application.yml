@@ -2,7 +2,8 @@
 #---
 spring:
     profiles:
-      active: d
+      active: 
+      - d
 ---
 server:
     port: 10021
