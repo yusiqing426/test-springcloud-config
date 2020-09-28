@@ -5,12 +5,16 @@ spring:
       active:
       - d
 ---
+server:
+    port: 10021
 spring:
     profiles: d   #开发环境
     application:
-      name: jymservicecloud-config-jym-dev
+      name: cf-s-d-10021      
 ---
+server:
+    port: 10022
 spring:
     profiles: t   #测试环境
     application:
-      name: jymservicecloud-config-jym-test
+      name: cf-s-d-10022
